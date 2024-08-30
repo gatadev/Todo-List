@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Styling for the main container */
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+/* Styling for the main heading */
+h1 {
+    text-align: center;
+    color: #333333ea;
+}
+
+/* Styling for the input container */
+.input-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+/* Styling for the input field */
+#todo-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+}
+
+/* Styling for the add button */
+#add-btn {
+    padding: 12px;
+    border: none;
+    background-color: #28a761;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+}
+
+/* Change button color on hover */
+#add-btn:hover {
+    background-color: #218851;
+}
+
+/* Remove default list styling and padding */
+#todo-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Styling for each task item */
+#todo-list li {
+    background: #f8f9fa;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Styling for the remove button */
+#todo-list li button {
+    border: none;
+    background: #dc357d;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Change remove button color on hover */
+#todo-list li button:hover {
+    background: #c82333;
+}

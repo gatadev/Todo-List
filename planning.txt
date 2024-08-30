@@ -1,0 +1,8 @@
+Html5
+-create html boilerplate
+link css file
+title
+input field to add task
+btn to click on for adding task to the dom
+unorder list to display tasks
+link javascript file
